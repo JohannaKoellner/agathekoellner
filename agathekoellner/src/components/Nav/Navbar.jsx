@@ -1,5 +1,5 @@
 import React from "react";
-import RightNav from "./RightNav";
+import Burger from "./Burger";
 
 const Navbar = () => {
     return (
@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="logo">
                 Logo
             </div>
-        <RightNav />
+        <Burger />
         </div>
     )
 }
