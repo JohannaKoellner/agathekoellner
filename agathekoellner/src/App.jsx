@@ -1,11 +1,12 @@
 import './App.css'
+import Navbar from './components/Nav/Navbar'
 
 function App() {
 
   return (
     <div className='page'>
-      <span>Agathe Köllner</span>
-            
+      <Navbar />
+
       <div>
         Page Content
       </div>
