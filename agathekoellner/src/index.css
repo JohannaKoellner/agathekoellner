@@ -3,9 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-
   --neutral-light: #BEDDDB;
   --neutral-dark: #1A223D;
   --accent-light: #DBE2B3;
@@ -14,20 +11,11 @@
   color-scheme: light dark;
   color: var(--neutral-dark);
   background-color: var(--neutral-light);
-}
-
-body {
+  padding: 0;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  box-sizing: border-box;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 /* @media (prefers-color-scheme: light) {
   :root {

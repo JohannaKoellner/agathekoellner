@@ -1,12 +1,20 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <h1>Agathe Köllner</h1>
-    </>
+    <div className='page'>
+      <span>Agathe Köllner</span>
+            
+      <div>
+        Page Content
+      </div>
+
+      <footer>
+        Footer here
+      </footer>
+
+    </div>
   )
 }
 
