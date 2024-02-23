@@ -8,7 +8,7 @@ const Nav = styled.ul`
     flex-wrap: nowrap;
     
     .nav-item {
-        padding: 8px 10px;
+        padding: 15px 30px;
     }
 
     @media only screen and (max-width: 768px) {
