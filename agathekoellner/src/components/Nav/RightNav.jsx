@@ -38,9 +38,9 @@ const RightNav = (props) => {
     return (
         <Nav open={open}>
             <a className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Angebote</a>
-            <li className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Über mich</li>
-            <li className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Testimonials</li>
-            <li className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Kontakt</li>
+            <a className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Über mich</a>
+            <a className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Testimonials</a>
+            <a className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Kontakt</a>
         </Nav>
     )
 }
