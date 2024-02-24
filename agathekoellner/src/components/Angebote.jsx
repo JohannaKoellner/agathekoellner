@@ -3,7 +3,7 @@ import React from 'react';
 const Angebote = () => {
     return (
         <div className='content'>
-            <h2>Angebote</h2>
+            <h2 id='angebote'>Angebote</h2>
 
             <div className='box-angebote'>
                 <h3>Energiearbeit und Mentoring</h3>

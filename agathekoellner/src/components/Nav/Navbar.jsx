@@ -5,7 +5,9 @@ import Logo from "../../assets/Logo.png";
 const Navbar = () => {
     return (
         <div className="navbar">
-            <img className="logo" src={Logo} alt="Logo von Agathe Köllner" />
+            <a href="#">
+                <img className="logo" src={Logo} alt="Logo von Agathe Köllner" />
+            </a>
             <Burger />
         </div>
     )

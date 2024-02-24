@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   background-color: var(--neutral-light);
   color: var(--neutral-dark);
@@ -31,11 +35,16 @@
 }
 
 .logo {
-  height: inherit;
+  height: 80px;
 }
 
 .nav-item {
   font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 
@@ -122,4 +131,8 @@ h4 {
 
 #eroeffnungsangebot {
   margin-top: 34px;
+}
+
+#angebote {
+  scroll-margin-top: 100px;
 }

@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
+import Burger from "./Burger";
 
 const Nav = styled.ul`
     list-style: none;
@@ -34,7 +35,7 @@ const Nav = styled.ul`
 const RightNav = ({ open }) => {
     return (
         <Nav open={open}>
-            <li className="nav-item">Angebote</li>
+            <a className="nav-item" href="#angebote">Angebote</a>
             <li className="nav-item">Über mich</li>
             <li className="nav-item">Testimonials</li>
             <li className="nav-item">Kontakt</li>
