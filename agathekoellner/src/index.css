@@ -65,6 +65,7 @@ h1 {
 h2 {
   font-size: larger;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 h3 {
@@ -92,6 +93,18 @@ h4 {
   align-items: center;
 }
 
+.section-circle {
+  height: 270px;
+  width: 270px;
+  border-radius: 135px;
+  background-color: var(--accent-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: -180px auto 20px auto;
+}
+
 .quote-circle > p {
   text-align: center;
   margin-left: -30px;
@@ -101,10 +114,6 @@ h4 {
 .photo-circle {
   margin-top: -40px;
   object-fit: cover;
-}
-
-.content {
-  margin-top: 30px;
 }
 
 .ul-angebote {
@@ -133,6 +142,22 @@ h4 {
   margin-top: 34px;
 }
 
-#angebote {
+.sections {
   scroll-margin-top: 100px;
+}
+
+.faq-h3 {
+  background-color: var(--accent-light);
+  border-radius: 15px;
+  padding: 8px 15px 8px 15px;
+  margin: 28px -15px 5px -15px;
+}
+
+.text {
+  padding: 4px 0 4px 0;
+}
+
+.portrait {
+  display: block;
+  margin: 20px auto 20px auto;
 }

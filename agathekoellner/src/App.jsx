@@ -2,6 +2,7 @@ import './App.css'
 import Angebote from './components/Angebote'
 import Hero from './components/Hero'
 import Navbar from './components/Nav/Navbar'
+import UeberMich from './components/UeberMich'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <div className='all-content'>
         <Hero />
         <Angebote />
+        <UeberMich />
       </div>
 
     </div>

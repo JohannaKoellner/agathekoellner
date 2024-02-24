@@ -3,7 +3,7 @@ import React from 'react';
 const Angebote = () => {
     return (
         <div className='content'>
-            <h2 id='angebote'>Angebote</h2>
+            <h2 className='sections' id='angebote'>Angebote</h2>
 
             <div className='box-angebote'>
                 <h3>Energiearbeit und Mentoring</h3>
@@ -57,6 +57,23 @@ const Angebote = () => {
                 <div id='eroeffnungsangebot'>180 €</div>
             </div>
 
+            <h3 className='faq-h3'>Wie verläuft Energiearbeit?</h3>
+            <p className='text'>In einem kurzen Gespräch informiere ich dich über die energetische Behandlung,
+                wie sie wirkt und dass Emotionen, Bilder,… auftauchen können.
+                Ich informiere dich auch darüber, dass ich keine ärztlichen Ratschläge erteile oder Diagnosen erstelle
+            </p>
+            <p className='text'>
+                Danach leite ich dich an, deinen Körper achtsam und dankbar wahrzunehmen, um ganz in dir zu sein.
+                In Verbindung mit der lichtvollen geistigen Welt und in liebevoller Verbindung zu dir 
+                berühre ich bestimmte Stellen deines Körpers oder arbeite ohne Berührung in deiner Aura. 
+                Durch diese Energie gelangst du in eine wundervolle Entspannung, zu Geborgenheit und Urvertrauen. 
+                Nun werden in dir Selbstheilung und Zuversicht aktiviert.</p>
+            <p className='text'>Eine Einheit dauert ca. eine Stunde.</p>
+
+            <h3 className='faq-h3'>Wie verläuft eine Mediation?</h3>
+            <p className='text'>Ich bin eingetragene Mediatorin und habe Erfahrung mit Konflikten im schulischen Umfeld.</p>
+            <p className='text'>Durch meine Kenntnisse in der Energiearbeit kann ich anbieten,
+                den Konflikt im Anschluss an die Mediation auch auf energetischer Ebene zu lösen.</p>
         </div>
     )
 }
