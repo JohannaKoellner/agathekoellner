@@ -32,13 +32,15 @@ const Nav = styled.ul`
     }
 `;
 
-const RightNav = ({ open }) => {
+const RightNav = (props) => {
+    const { open, setOpen } = props;
+
     return (
         <Nav open={open}>
-            <a className="nav-item" href="#angebote">Angebote</a>
-            <li className="nav-item">Über mich</li>
-            <li className="nav-item">Testimonials</li>
-            <li className="nav-item">Kontakt</li>
+            <a className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Angebote</a>
+            <li className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Über mich</li>
+            <li className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Testimonials</li>
+            <li className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Kontakt</li>
         </Nav>
     )
 }
