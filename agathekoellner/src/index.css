@@ -5,6 +5,7 @@
 
   --neutral-light: #BEDDDB;
   --neutral-dark: #1A223D;
+  --accent-very-light: #D2E7E6;
   --accent-light: #DBE2B3;
   --accent-dark: #3F4D60;
   padding: 0;
@@ -26,6 +27,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  background-color: var(--neutral-light);
 }
 
 .logo {
@@ -38,23 +40,40 @@
 
 
 
-.content {
-  padding: 100px 30px 0 30px;
+.all-content {
+  padding: 100px 30px 30px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 h1 {
-  font-size: medium;
+  font-size: 4.73vw;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
+h2 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: medium;
+}
+
+h4 {
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
 .circle {
-  height: 280px;
-  width: 280px;
-  border-radius: 140px;
+  height: 270px;
+  width: 270px;
+  border-radius: 135px;
 }
 
 .quote-circle {
@@ -73,4 +92,34 @@ h1 {
 .photo-circle {
   margin-top: -40px;
   object-fit: cover;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.ul-angebote {
+  padding-left: 20px;
+}
+
+.li-angebote {
+  padding-bottom: 5px;
+}
+
+.box-angebote {
+  background-color: var(--accent-very-light);
+  border-radius: 20px;
+  padding: 5px 20px 10px 20px;
+  margin: 10px 0 20px 0;
+}
+
+.container-preise {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5px;
+  row-gap: 8px;
+}
+
+#eroeffnungsangebot {
+  margin-top: 34px;
 }
