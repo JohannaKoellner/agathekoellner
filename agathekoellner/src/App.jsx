@@ -3,6 +3,7 @@ import Angebote from './components/Angebote'
 import Hero from './components/Hero'
 import Navbar from './components/Nav/Navbar'
 import UeberMich from './components/UeberMich'
+import Kontakt from './components/Kontakt'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Angebote />
         <UeberMich />
+        <Kontakt />
       </div>
 
     </div>

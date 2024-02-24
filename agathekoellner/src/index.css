@@ -161,3 +161,7 @@ h4 {
   display: block;
   margin: 20px auto 20px auto;
 }
+
+address {
+  font-style: normal;
+}

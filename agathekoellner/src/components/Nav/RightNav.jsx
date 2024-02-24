@@ -40,7 +40,7 @@ const RightNav = (props) => {
             <a className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Angebote</a>
             <a className="nav-item" href="#ueber-mich" onClick={() => setOpen(!open)}>Über mich</a>
             <a className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Testimonials</a>
-            <a className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Kontakt</a>
+            <a className="nav-item" href="#kontakt" onClick={() => setOpen(!open)}>Kontakt</a>
         </Nav>
     )
 }

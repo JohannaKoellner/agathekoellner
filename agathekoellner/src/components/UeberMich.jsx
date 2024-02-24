@@ -29,7 +29,7 @@ const UeberMich = () => {
                 Ich bin jedes Mal berührt, wenn ich sehe, wie meine Klient:innen nach einer Behandlung,
                 einem Gespräch oder einer Mediation Kraft, Mut und Vertrauen erlangen, um ihr Leben wieder freudig gestalten zu können.
             </p>
-            <div className="section-circle"></div>
+            {/* <div className="section-circle"></div> */}
         </div>
     )
 }
