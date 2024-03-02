@@ -174,3 +174,20 @@ address {
 .visible-link:visited {
   color: var(--accent-dark);
 }
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--accent-very-light);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
