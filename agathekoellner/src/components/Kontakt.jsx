@@ -6,7 +6,7 @@ const Kontakt = () => {
             <h2 className='sections' id='kontakt'>Kontakt</h2>
             <address>
                 Terminvereinbarung unter <br />
-                <a href="tel:+4369912734270">0699/12734270</a> oder <a href="mailto:info@agathekoellner.at">info@agathekoellner.at</a>
+                <a href="tel:+4369912734270" className="visible-link">0699/12734270</a> oder <a href="mailto:info@agathekoellner.at" className="visible-link">info@agathekoellner.at</a>
             </address>
             <p className="text">
                 Ich freue mich auf Sie/dich im Studio:<br />
