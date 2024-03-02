@@ -18,7 +18,7 @@ const UeberMich = () => {
                 weil es mir wichtig ist, kompetent Lösungen zu erarbeiten, mit denen beide Parteien 
                 als Gewinner aus dem Konflikt gehen können. Im Anschluss daran erwarb ich zudem die
                 Zertifizierung als systemischer Coach nach dem Konzept der „Neuen Autorität“. 
-                Dieses beinhaltet unter Anderem Säulen wie Selbstkontrolle, Unterstützungsnetzwerke, 
+                Dieses beinhaltet unter anderem Säulen wie Selbstkontrolle, Unterstützungsnetzwerke, 
                 Präsenz und Wiedergutmachung und verhalf mir dazu, das Team der Schule  zu stärken 
                 und zu professionalisieren, um auch in schwierigen Situationen wertschätzend und zielführend handeln zu können.
             </p>
@@ -26,6 +26,8 @@ const UeberMich = () => {
                 Bodenständige Spiritualität begleitet mich schon mein ganzes Leben. 
                 In der Ausbildung „Cosmogetic Healing“ von Jana Haas fand ich schließlich den Puzzlestein, 
                 der mir ermöglicht, Menschen tiefergehender und wirkungsvoller zu unterstützen. 
+            </p>
+            <p className="text">
                 Ich bin jedes Mal berührt, wenn ich sehe, wie meine Klient:innen nach einer Behandlung,
                 einem Gespräch oder einer Mediation Kraft, Mut und Vertrauen erlangen, um ihr Leben wieder freudig gestalten zu können.
             </p>
