@@ -1,26 +1,54 @@
 import React from "react";
+import { ChevronLeft, ChevronRight } from 'react-feather';
 import Frau1 from "../assets/Frau1.png";
 import Frau2 from "../assets/Frau2.png";
 
 
 
+// const Testimonials = () => {
+//     return (
+//         <div className="content">
+//             <h2 className='sections' id='testimonials'>Testimonials</h2>
+//             <div className="carousel-container">
+//                 <div className="carousel"> {/* -> Carousel */}
+//                     <div className="slides-container">
+//                         <div className="slides">
+//                             {testimonialData.map((t) => (
+//                             <div className="card" key={t.key}>
+//                                 <img src={t.img} alt="Grafik eines Menschen" className="testimonial-img"/>
+//                                 <h3>{t.name}</h3>
+//                                 <p>{t.review}</p>
+//                             </div>
+//                             )
+//                             )}
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
+
 const Testimonials = () => {
     return (
-        <div className="content">
-            <h2 className='sections' id='testimonials'>Testimonials</h2>
-
-            <div className="testimonial-cards">
-                {testimonialData.map((t) => 
-                (
+        <div className="testimonials">
+            <div className="carousel">
+                {testimonialData.map((t) => (
                     <div className="card" key={t.key}>
                         <img src={t.img} alt="Grafik eines Menschen" className="testimonial-img"/>
                         <h3>{t.name}</h3>
                         <p>{t.review}</p>
                     </div>
-                )
-                )}
+                ))}
             </div>
-
+            <div className="chevron-container">
+                <button className="chevron">
+                    <ChevronLeft size={40}/>
+                </button>
+                <button>
+                    <ChevronRight size={40}/>
+                </button>
+            </div>
         </div>
     )
 }
@@ -37,7 +65,7 @@ const testimonialData = [
         key: 1,
         img: Frau2,
         name: 'Diana',
-        review: 'Agathe steht in einer starken Verbindung zur heilenden Kraft und ist fähig heilsame Energien weiterzugeben. In einer Atmosphäre von Frieden und Harmonie ist sie eine sehr gute Zuhörerin, gibt fundierte Ratschläge, um Probleme zu beheben und zu guten Lösungen zu kommen.'
+        review: 'Agathe steht in einer starken Verbindung zur heilenden Kraft und ist fähig, heilsame Energien weiterzugeben. In einer Atmosphäre von Frieden und Harmonie ist sie eine sehr gute Zuhörerin, gibt fundierte Ratschläge, um Probleme zu beheben und zu guten Lösungen zu kommen.'
     },
 
     {

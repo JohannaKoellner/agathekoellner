@@ -49,7 +49,8 @@ html {
   padding: 100px 30px 30px 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  overflow:hidden;
 }
 
 h1 {
@@ -181,13 +182,50 @@ address {
   border-radius: 40px;
 }
 
+.testimonials {
+  width: 100%;
+  position: relative;
+}
+
+.carousel {
+ display: flex;
+ width: 100%;
+ overflow: hidden;
+}
+
 .card {
+  min-width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: var(--accent-very-light);
-  border-radius: 20px;
-  padding: 20px;
-  margin: 10px 0 20px 0;
+  border-radius: 15px;
+  padding: 0 55px 0 55px;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin: 15px 0 15px 0;
+}
+
+.chevron-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  align-items: center;
+  inset: 0;
+  padding: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--neutral-dark);
+}
+
+button:hover {
+  color: var(--accent-dark);
 }
