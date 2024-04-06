@@ -9,7 +9,6 @@ const Testimonials = () => {
     const [curr, setCurr] = useState(0);
 
     const prev = () => {
-        console.log('prev executed');
         setCurr((curr) => (curr === 0 ? testimonialData.length - 1 : curr - 1));
     }
 
@@ -18,6 +17,8 @@ const Testimonials = () => {
 
 
     return (
+        <>
+        <h2 id="testimonials" className="sections">Testimonials</h2>
         <div className="testimonials">
             <div className="carousel" style={{transform: `translateX(-${curr * 105}%)`}}>
                 {testimonialData.map((t) => (
@@ -37,6 +38,7 @@ const Testimonials = () => {
                 </button>
             </div>
         </div>
+        </>
     )
 }
 
