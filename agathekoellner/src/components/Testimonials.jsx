@@ -1,38 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from 'react-feather';
 import Frau1 from "../assets/Frau1.png";
 import Frau2 from "../assets/Frau2.png";
 
 
-
-// const Testimonials = () => {
-//     return (
-//         <div className="content">
-//             <h2 className='sections' id='testimonials'>Testimonials</h2>
-//             <div className="carousel-container">
-//                 <div className="carousel"> {/* -> Carousel */}
-//                     <div className="slides-container">
-//                         <div className="slides">
-//                             {testimonialData.map((t) => (
-//                             <div className="card" key={t.key}>
-//                                 <img src={t.img} alt="Grafik eines Menschen" className="testimonial-img"/>
-//                                 <h3>{t.name}</h3>
-//                                 <p>{t.review}</p>
-//                             </div>
-//                             )
-//                             )}
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
 const Testimonials = () => {
+
+    const [curr, setCurr] = useState(0);
+
+    const prev = () => {
+        console.log('prev executed');
+        setCurr((curr) => (curr === 0 ? testimonialData.length - 1 : curr - 1));
+    }
+
+    const next = () => 
+        setCurr((curr) => (curr === testimonialData.length - 1 ? 0 : curr + 1));
+
+
     return (
         <div className="testimonials">
-            <div className="carousel">
+            <div className="carousel" style={{transform: `translateX(-${curr * 105}%)`}}>
                 {testimonialData.map((t) => (
                     <div className="card" key={t.key}>
                         <img src={t.img} alt="Grafik eines Menschen" className="testimonial-img"/>
@@ -42,10 +29,10 @@ const Testimonials = () => {
                 ))}
             </div>
             <div className="chevron-container">
-                <button className="chevron">
+                <button onClick={prev}>
                     <ChevronLeft size={40}/>
                 </button>
-                <button>
+                <button onClick={next}>
                     <ChevronRight size={40}/>
                 </button>
             </div>

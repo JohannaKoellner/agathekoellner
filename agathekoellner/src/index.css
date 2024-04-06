@@ -32,6 +32,7 @@ html {
   align-items: center;
   position: fixed;
   background-color: var(--neutral-light);
+  z-index: 5;
 }
 
 .logo {
@@ -185,12 +186,16 @@ address {
 .testimonials {
   width: 100%;
   position: relative;
+   overflow: hidden; 
 }
 
 .carousel {
  display: flex;
- width: 100%;
- overflow: hidden;
+ transition-property: transform;
+ transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+ transition-duration: 1000ms;
+ z-index: -5;
+ position: sticky;
 }
 
 .card {
@@ -203,7 +208,7 @@ address {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 15px 0 15px 0;
+  margin: 15px 5% 15px 0;
 }
 
 .chevron-container {
@@ -217,13 +222,15 @@ address {
 }
 
 button {
-  background: none;
+  background: var(--accent-very-light);
+  border-radius: 30px;
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--neutral-dark);
+  position: sticky;
 }
 
 button:hover {
