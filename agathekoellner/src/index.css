@@ -204,8 +204,8 @@ address {
   flex-direction: column;
   background-color: var(--accent-very-light);
   border-radius: 15px;
-  padding: 0 55px 0 55px;
-  justify-content: center;
+  padding: 30px 55px 30px 55px;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   margin: 15px 5% 15px 0;
