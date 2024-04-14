@@ -5,12 +5,12 @@ const Hero = () => {
     return (
         <div className="hero">
             <h1>Energetikerin • Mediatorin • Mentorin</h1>
+            <img className="photo-circle" src={Portrait1} alt="Porträtfoto von Agathe Köllner" />
             <div className="circle quote-circle">
                 <p className="quote">
-                    In liebevoller Verbundenheit möchte ich dich stärken und dich befähigen, ganz im Urvertrauen zu sein, sodass du mit Zuversicht, Gelassenheit und Mut dein Leben gestalten kannst.
+                    "In liebevoller Verbundenheit möchte ich dich stärken und dich befähigen, ganz im Urvertrauen zu sein, sodass du mit Zuversicht, Gelassenheit und Mut dein Leben gestalten kannst."
                 </p>
             </div>
-            <img className="circle photo-circle" src={Portrait1} alt="Porträtfoto von Agathe Köllner" />
         </div>
     )
 }
