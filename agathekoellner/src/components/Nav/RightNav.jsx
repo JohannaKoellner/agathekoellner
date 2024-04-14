@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
+import Burger from "./Burger";
 
 const Nav = styled.ul`
     list-style: none;
@@ -8,7 +9,7 @@ const Nav = styled.ul`
     flex-wrap: nowrap;
     
     .nav-item {
-        padding: 8px 10px;
+        padding: 15px 30px;
     }
 
     @media only screen and (max-width: 768px) {
@@ -31,13 +32,15 @@ const Nav = styled.ul`
     }
 `;
 
-const RightNav = ({ open }) => {
+const RightNav = (props) => {
+    const { open, setOpen } = props;
+
     return (
         <Nav open={open}>
-            <li className="nav-item">Angebote</li>
-            <li className="nav-item">Über mich</li>
-            <li className="nav-item">Testimonials</li>
-            <li className="nav-item">Kontakt</li>
+            <a className="nav-item" href="#angebote" onClick={() => setOpen(!open)}>Angebote</a>
+            <a className="nav-item" href="#testimonials" onClick={() => setOpen(!open)}>Testimonials</a>
+            <a className="nav-item" href="#ueber-mich" onClick={() => setOpen(!open)}>Über mich</a>
+            <a className="nav-item" href="#kontakt" onClick={() => setOpen(!open)}>Kontakt</a>
         </Nav>
     )
 }
