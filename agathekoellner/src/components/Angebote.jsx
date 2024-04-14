@@ -81,11 +81,11 @@ const Angebote = () => {
 
             <h3 className='faq-h3'>Wem kann meine Form von Energiearbeit helfen?</h3>
             <ul className='ul-faq'>
-                <li className='li-faq'>Jedem Menschen, der viele Aufgabe im Beruf und/oder in der Familie bewältigen muss, um sich selbst wieder zu nähren</li>
-                <li className='li-faq'>Jedem Menschen, der unter Gedankenkreisen leidet, um sich im Kopf wieder freier zu fühlen</li>
-                <li className='li-faq'>Jedem Menschen, der in der jetzigen Lebensphase wenig Zuversicht und Vertrauen hat, um wieder zu Selbstvertrauen, Mut und Lebenskraft zu kommen</li>
-                <li className='li-faq'>Jedem Menschen, der sich eine Auszeit gönnt, um ganz in Kontakt mit seinem Innersten zu kommen!</li>
-                <li className='li-faq'>Jedem Menschen, der seine Selbstheilungskräfte aktivieren will!</li>
+                <li className='li-faq'>Jedem Menschen, der viele Aufgabe im Beruf und/oder in der Familie bewältigen muss, um sich selbst wieder zu nähren.</li>
+                <li className='li-faq'>Jedem Menschen, der unter Gedankenkreisen leidet, um sich im Kopf wieder freier zu fühlen.</li>
+                <li className='li-faq'>Jedem Menschen, der in der jetzigen Lebensphase wenig Zuversicht und Vertrauen hat, um wieder zu Selbstvertrauen, Mut und Lebenskraft zu kommen.</li>
+                <li className='li-faq'>Jedem Menschen, der sich eine Auszeit gönnt, um ganz in Kontakt mit seinem Innersten zu kommen.</li>
+                <li className='li-faq'>Jedem Menschen, der seine Selbstheilungskräfte aktivieren will.</li>
             </ul>
 
             <h3 className='faq-h3'>Zur energetischen Behandlung</h3>
