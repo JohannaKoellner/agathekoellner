@@ -23,7 +23,7 @@ const Testimonials = () => {
             <div className="carousel" style={{transform: `translateX(-${curr * 105}%)`}}>
                 {testimonialData.map((t) => (
                     <div className="card" key={t.key}>
-                        <img src={t.img} alt="Grafik eines Menschen" className="testimonial-img"/>
+                        {/* <img src={t.img} alt="Grafik eines Menschen" className="testimonial-img"/> */}
                         <h3>{t.name}</h3>
                         <p>{t.review}</p>
                     </div>
@@ -68,7 +68,7 @@ const testimonialData = [
         key: 3,
         img: {Frau1},
         name: 'Monika',
-        review: 'Eine Auszeit "nur" für mich! Nach einem herzlichen Willkommen und einem Gespräch - in dem Frau Köllner aufmerksam zuhörte und vorsichtig nachfragte - fühlte ich mich gleich sehr wohl und spürte: In dieser Stunde geht es um mich und mein Wohlergehen! Die sanften Berührungen - bequem liegend und fürsorglich zugedeckt - führten mich in eine tiefe Entspannung. Nach der Behandlung war auch noch Zeit über mein "Erlebtes" zu sprechen. So sorgsam wie Frau Köllner die Berührungen platziert hatte und nach der Frage, ob ich das auch wolle, beschrieb nun Sie Ihre Eindrücke der Behandlung. Ich fühlte mich körperlich erholt und geistig entspannt. Auch in den nächsten Tage war noch etwas zu spüren: Ein Kribbeln da - eine Erinnerung der Berührung dort.'
+        review: 'Eine Auszeit "nur" für mich! Nach einem herzlichen Willkommen und einem Gespräch fühlte ich mich gleich sehr wohl und spürte: In dieser Stunde geht es um mich und mein Wohlergehen! Die sanften Berührungen führten mich in eine tiefe Entspannung. Nach der Behandlung war auch noch Zeit über mein "Erlebtes" zu sprechen. So sorgsam wie Frau Köllner die Berührungen platziert hatte, beschrieb nun sie Ihre Eindrücke der Behandlung. Ich fühlte mich körperlich erholt und geistig entspannt. Auch in den nächsten Tage war noch etwas zu spüren: Ein Kribbeln da - eine Erinnerung der Berührung dort.'
     },
 
     {
@@ -82,7 +82,8 @@ const testimonialData = [
         key: 5,
         img: {Frau1},
         name: 'Anna-Leena',
-        review: 'Du bist für mich der Inbegriff der Urmutter und Mutter Erde (Pachamama) und eine wahre Hüterin der Weiblichkeit! Es ist so schön, dass Du Deinem Ruf folgst und Dich der Heilung der Frauenkraft verschrieben hast. Du bist eine starke Frau, die in der Fülle lebt und diese so selbstverständlich mit anderen teilt. Dank Deiner einfühlenden Art, durch Dein aufmerksames Zuhören und durch Deine energetischen Behandlungen mittels Cosmogetic Healing konnten bei mir u.a. Thematiken wie meine verletzten weiblichen Anteile, Anteile meines inneren Kindes und auch Mutterthemen in Heilung geraten. Auch Deine Schutzengelmeditationsrunden werden mir immer unvergesslich in Erinnerung bleiben! Ich fühle mich bei Dir geborgen und es ist jedes Mal ein wundervolles Erlebnis von Dir behandelt zu werden. Danke für Dein Sein und Dein Wirken!'
+        review: 'Du bist für mich der Inbegriff der Urmutter und Mutter Erde (Pachamama) und eine wahre Hüterin der Weiblichkeit! Du bist eine starke Frau, die in der Fülle lebt und diese so selbstverständlich mit anderen teilt. Dank Deiner einfühlenden Art, durch Dein aufmerksames Zuhören und durch Deine energetischen Behandlungen mittels Cosmogetic Healing konnten bei mir u.a. Thematiken wie meine verletzten weiblichen Anteile, Anteile meines inneren Kindes und auch Mutterthemen in Heilung geraten. Auch Deine Schutzengelmeditationsrunden werden mir immer unvergesslich in Erinnerung bleiben! Danke für Dein Sein und Dein Wirken!'
+        
     }
 ]
 

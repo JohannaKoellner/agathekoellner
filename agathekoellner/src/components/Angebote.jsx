@@ -44,26 +44,39 @@ const Angebote = () => {
 
             <h3>Preise</h3>
             <div className='container-preise'>
-                <div className='item-preise'>Kennenlernen des Angebots<br />auch telefonisch, 15 Minuten</div>
-                <div className='item-preise'>gratis</div>
-                
-                <div className='item-preise'>Energiearbeit, 1 Stunde</div>
-                <div className='item-preise'>70 €</div>
-                
-                <div className='item-preise'>Fernbehandlung, nach Absprache</div>
-                <div className='item-preise'>40 €</div>
-                
-                <div className='item-preise'>Mediation, je nach Zeitbedarf<br />pro Stunde</div>
-                <div className='item-preise'>70 €</div>
-                
-                <div className='item-preise'>Coaching nach der „Neuen Autorität”<br />30 Minuten</div>
-                <div className='item-preise'>35 €</div>
-
-                <div>
-                    <h4>Eröffnungsangebot</h4>
-                    <p>3er Block Energiearbeit</p>
+                <div className='row-preise light-row first-row'>
+                    <div className='item-preise-l light-row'>Kennenlernen des Angebots - auch telefonisch, 15 Minuten</div>
+                    <div className='item-preise-r light-row'>gratis</div>
                 </div>
-                <div id='eroeffnungsangebot'>180 €</div>
+                
+                <div className='row-preise'>
+                    <div className='item-preise-l'>Energiearbeit, 1 Stunde</div>
+                    <div className='item-preise-r'>70 €</div>
+                </div>
+
+                <div className='row-preise light-row'>
+                    <div className='item-preise-l light-row'>Fernbehandlung, nach Absprache</div>
+                    <div className='item-preise-r light-row'>40 €</div>
+                </div>
+
+                <div className='row-preise'>
+                    <div className='item-preise-l'>Mediation - je nach Zeitbedarf, pro Stunde</div>
+                    <div className='item-preise-r'>70 €</div>
+                </div>
+
+                <div className='row-preise light-row'>
+                    <div className='item-preise-l light-row'>Coaching nach der „Neuen Autorität”, 30 Minuten</div>
+                    <div className='item-preise-r light-row'>35 €</div>
+                </div>
+
+                <div className='row-preise last-row'>
+                    <div className='item-preise-l'>
+                        <h4>Eröffnungsangebot</h4>
+                        <p>3er Block Energiearbeit</p>
+                    </div>
+                    <div className='item-preise-r'>180 €</div>
+                </div>
+
             </div>
 
             <h3 className='faq-h3'>Wem kann meine Form von Energiearbeit helfen?</h3>
@@ -71,36 +84,25 @@ const Angebote = () => {
                 <li className='li-faq'>Jedem Menschen, der viele Aufgabe im Beruf und/oder in der Familie bewältigen muss, um sich selbst wieder zu nähren</li>
                 <li className='li-faq'>Jedem Menschen, der unter Gedankenkreisen leidet, um sich im Kopf wieder freier zu fühlen</li>
                 <li className='li-faq'>Jedem Menschen, der in der jetzigen Lebensphase wenig Zuversicht und Vertrauen hat, um wieder zu Selbstvertrauen, Mut und Lebenskraft zu kommen</li>
+                <li className='li-faq'>Jedem Menschen, der sich eine Auszeit gönnt, um ganz in Kontakt mit seinem Innersten zu kommen!</li>
+                <li className='li-faq'>Jedem Menschen, der seine Selbstheilungskräfte aktivieren will!</li>
             </ul>
 
-            <h3 className='faq-h3'>Wie verläuft Energiearbeit?</h3>
-            <p className='text'>In einem kurzen Gespräch informierst du mich über dein Anliegen (muss auch nicht sein, da Energie immer wirkt).
-                Ich erkläre dir diese wertvolle Behandlung, wie sie wirken kann und dass in dir Emotionen, Bilder,… auftauchen können.
-            </p>
-            <p className='text'>
-                Danach leite ich dich an, deinen Körper achtsam und dankbar wahrzunehmen, um ganz in dir zu sein.
-                In Verbindung mit der lichtvollen geistigen Welt und in liebevoller Verbindung zu dir 
-                berühre ich bestimmte Stellen deines Körpers oder arbeite ohne Berührung in deiner Aura. 
-                Du gelangst in eine wundervolle Entspannung, zu Geborgenheit und Urvertrauen. 
-                Nun können in dir Selbstheilung, Gelassenheit und Zuversicht aktiviert werden.</p>
-            <p className='text'>
-                Die Empfindungen während der Behandlung hängen von deiner Offenheit und Bereitschaft ab. 
-                Auch wenn du wenig spürst, arbeitet die Energie trotzdem in dir.
-            </p>
-            <p className='text'>Eine Einheit dauert ca. eine Stunde.</p>
+            <h3 className='faq-h3'>Zur energetischen Behandlung</h3>
+            <ul className='ul-faq'>
+                <li className='li-faq'>Du informierst mich über dein Anliegen.</li>
+                <li className='li-faq'>Ich erkläre dir, wie die Behandlung wirken kann (Emotionen, Bilder,…).</li>
+                <li className='li-faq'>Nachdem du gut in dir angekommen (Körperwahrnehmung,..) bist, übertrage ich dir Energie durch Ausstreichen der Aura und durch sanfte Berührungen. Du gelangst in eine wundervolle Entspannung, zu Geborgenheit und Urvertrauen. In diesem nährenden Feld wachsen Selbstheilung, Gelassenheit und Zuversicht.</li>
+                <li className='li-faq'>Auch nach einer Behandlung wirkt die Energie weiter in dir, auch wenn du dies nicht bewusst wahrnimmst.</li>
+                <li className='li-faq'>Energiearbeit versteht sich als begleitende Maßnahme zur Schulmedizin und ist kein Ersatz für eine ärztliche Behandlung.</li>
+            </ul>
 
-            <h3 className='faq-h3'>Wie verläuft eine Mediation?</h3>
-            <p className='text'>
-                Die <a href="https://www.oesterreich.gv.at/themen/familie_und_partnerschaft/partnerschaft-und-ehe/scheidung/Seite.100800.html" className='visible-link' target="_blank">Mediation</a> ist ein Verfahren zur konstruktiven Konfliktlösung. 
-                Dabei unterstützt ein:e Mediator:in als neutrale:r Vermittler:in die Parteien, eine gute und tragfähige Lösung zu erarbeiten.
-            </p>
-            <p className='text'>
-                Ich bin eingetragene Mediatorin und habe Erfahrung mit Konflikten im schulischen Umfeld.
-            </p>
-            <p className='text'>
-                Durch meine Kenntnisse in der Energiearbeit kann ich anbieten,
-                den Konflikt im Anschluss an die Mediation auch auf energetischer Ebene zu lösen.
-            </p>
+            <h3 className='faq-h3'>Zur Mediation</h3>
+            <ul className='ul-faq'>
+                <li className='li-faq'>Jeder Mensch, der sich aufmacht und bereit ist, seine Konflikte zu lösen, trägt zum Frieden in dieser Welt bei. Oft gelingt es nicht, dies alleine zu meistern. Mir ist es eine Herzensbedürfnis Sie/dich dabei zu unterstützen.</li>
+                <li className='li-faq'>Durch mein Wissen aus der Energiearbeit gelingt es mir, die Konfliktparteien in ihren Emotionen gut abzuholen. So können gemeinsam umsetzbare und dauerhafte Lösungen für alle Beteiligten gefunden werden.</li>
+                <li className='li-faq'>Ich bin eingetragene Mediatorin und habe Erfahrungen mit Konflikten in den Bereichen Schule und Familie.</li>
+            </ul>  
         </div>
     )
 }

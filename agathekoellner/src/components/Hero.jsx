@@ -3,7 +3,7 @@ import Portrait1 from "../assets/Portrait1.jpeg";
 
 const Hero = () => {
     return (
-        <>
+        <div className="hero">
             <h1>Energetikerin • Mediatorin • Mentorin</h1>
             <div className="circle quote-circle">
                 <p className="quote">
@@ -11,7 +11,7 @@ const Hero = () => {
                 </p>
             </div>
             <img className="circle photo-circle" src={Portrait1} alt="Porträtfoto von Agathe Köllner" />
-        </>
+        </div>
     )
 }
 
